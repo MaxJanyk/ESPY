@@ -1,0 +1,64 @@
+@import "variable"
+.root
+  padding: 20px
+  min-height: calc(100vh - 120px)
+  background: $colorBg
+  transition: margin-left 0.3s ease
+
+  &_ltr
+    margin-left: auto
+
+  &_rtl
+    margin-right: auto
+
+
+.root_mobile.root_ltr
+  @extend .root
+
+  margin-left: 64px
+
+.root_mobile.root_rtl
+  @extend .root
+
+  margin-right: 60px
+
+.root_wide.root_ltr
+  @extend .root
+
+  @media (min-width: $breakpointMD)
+    margin-left: 64px
+
+.root_wide.root_rtl
+  @extend .root
+  margin-right: 64px
+
+.root_narrow.root_ltr
+  @extend .root
+  margin-left: 240px
+
+.root_narrow.root_rtl
+  @extend .root
+  margin-right: 240px
+
+
+.title
+  padding-bottom: 20px
+  font-size: 24px
+  line-height: 34px
+  font-family: $fontBold
+
+.subTitle
+  font-size: 18px
+  line-height: 22px
+  font-family: $fontSemiBold
+
+.blockTitle
+  font-size: 18px
+  line-height: 34px
+  font-family: $fontMedium
+
+
+.body
+  padding: 20px
+  background: #FFF
+  border-radius: 10px

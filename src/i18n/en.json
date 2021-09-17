@@ -1,0 +1,153 @@
+{
+  "apiKey": {
+    "createAPIkey": "Create API key",
+    "editAPIkey": "Edit API key",
+    "hint": "Will be displayed after saving...",
+    "key": "Key",
+    "length": "Length",
+    "secret": "Secret",
+    "table": {
+      "action": "Action",
+      "created": "Created",
+      "environment": "Environment",
+      "label": "Label"
+    },
+    "title": "API Keys"
+  },
+  "auth": {
+    "2step": {
+      "title": "2-Step Verification"
+    },
+    "forgot": {
+      "doneHint1": "An email with further password reset instructions has been sent to",
+      "doneHint2": "if this address is present in our system.",
+      "hint": "Please enter your email to reset your password",
+      "resetPassword": "Reset Password",
+      "title": "Forgot password"
+    },
+    "or": "Or",
+    "register": {
+      "createAccount": "Create Account",
+      "doneHint": "An email with a link to confirm your mail has been sent",
+      "hint": "Fill in the registration data. It will take a couple of minutes.",
+      "hint2": "Sign up with your social media account",
+      "hint3": "Confirm phone number with code from sms message",
+      "licence": "Сontinuing you ipsum dolor sit amet, consectetur adipiscing elit. Magnis iaculis aliquam cras fringilla nisi. Ut eget quam faucibus",
+      "licence2": "Licence",
+      "sendAgain": "Send again",
+      "submit": "Register Account",
+      "title": "Registration"
+    },
+    "welcome": {
+      "forgotYourPassword": "Forgot your password?",
+      "hint": "Sign in with your social media account",
+      "noAccountYet": "No account yet?",
+      "signIn": "Sign in",
+      "signUpNow": "Sign up now",
+      "title": "Welcome back!"
+    }
+  },
+  "common": {
+    "add": "Add",
+    "cancel": "Cancel",
+    "close": "Close",
+    "done": "Done",
+    "generate": "Generate new keys",
+    "no": "No",
+    "notSelected": "Not selected",
+    "save": "Save",
+    "sure": "Are you sure?",
+    "yes": "Yes"
+  },
+  "dashboard": {
+    "balance": "Balance",
+    "buyNewPackage": "Buy new Package",
+    "personalPlan": "Personal Plan",
+    "request": "Request",
+    "requests": "Requests",
+    "requestsMonitor": "Requests monitor",
+    "table": {
+      "endDate": "End date",
+      "package": "Package",
+      "performed": "Performed",
+      "remain": "Remain"
+    },
+    "title": "Dashboard"
+  },
+  "drawer": {
+    "apiKeys": "API Keys",
+    "billing": "Billing",
+    "customAPI": "Custom API",
+    "dashboard": "Dashboard",
+    "developer": "Developer",
+    "helpAndSupport": "Help & Support",
+    "packages": "Packages",
+    "settings": "Settings"
+  },
+  "header": {
+    "editProfile": "Edit Profile",
+    "logout": "Logout"
+  },
+  "input": {
+    "hint": {
+      "emailOrPhone": "Enter your email or phone number",
+      "newEmail": "Enter new email",
+      "newPhone": "Enter new phone number",
+      "password": "Enter your password",
+      "passwordRepeat": "Enter confirm"
+    },
+    "label": {
+      "2stepVerification": "2-Step Verification",
+      "confirmationCode": "Confirmation code",
+      "currency": "Currency",
+      "email": "Email",
+      "emailOrPhone": "Email or Phone Number",
+      "firstname": "First Name",
+      "language": "Language",
+      "lastname": "Last Name",
+      "newEmail": "New email",
+      "newPassword": "New password",
+      "newPhone": "New phone number",
+      "password": "Password",
+      "passwordRepeat": "Password repeat",
+      "phone": "Phone number",
+      "verificationCode": "Verification code"
+    }
+  },
+  "package": {
+    "active": "Active",
+    "activeUntil": "Active until",
+    "availablePackage": "Available Packages",
+    "buy": "BUY",
+    "renew": "Renew",
+    "requestPersonalPlan": "Request personal plan",
+    "showMore": "Show more",
+    "title": "Packages",
+    "yourPackage": "Your Packages"
+  },
+  "settings": {
+    "2factorHint": "Use your phone as your second sign-in step",
+    "2factorHint2": "We will send a secure SMS to your phone as your second factor during 2-Step Verification",
+    "2factorScan": "Scan your QR code please",
+    "changeEmail": "Change email",
+    "changePassword": "Change password",
+    "changePhoneNumber": "Change phone number",
+    "deleteAccount": "Delete Account",
+    "editProfile": "Edit profile",
+    "other": "Other",
+    "personalInformation": "Personal Information",
+    "title": "Settings"
+  },
+  "validation": {
+    "email": "Must be a valid email",
+    "latinAndNumberOnly": "Only latin characters and number accepted",
+    "length6": "Length must be 6 characters long",
+    "max255": "Length must be no more than 255 characters long",
+    "max320": "Length must be no more than 320 characters long",
+    "max6": "Length must be no more than 6 characters long",
+    "min6": "Length must be at least 6 characters long",
+    "passwordRepeat": "Must match with password",
+    "phone": "Must be a valid phone number",
+    "required": "Cannot be an empty"
+  }
+}

@@ -1,0 +1,171 @@
+@import 'variable'
+
+body
+  margin: 0
+  font-family: $fontRegular
+
+.rtl
+  direction: rtl
+
+
+@font-face
+  font-family: interReg
+  src: url(../asset/font/Inter-Regular.ttf) format("truetype")
+  font-weight: 400
+
+@font-face
+  font-family: interMed
+  src: url(../asset/font/Inter-Medium.ttf) format("truetype")
+  font-weight: 500
+
+@font-face
+  font-family: interSemiBold
+  src: url(../asset/font/Inter-SemiBold.ttf) format("truetype")
+  font-weight: 600
+
+@font-face
+  font-family: interBold
+  src: url(../asset/font/Inter-Bold.ttf) format("truetype")
+  font-weight: 700
+
+
+.text
+  &_left
+    text-align: left
+
+  &_center
+    text-align: center
+
+
+.font_medium
+  font-family: $fontMedium
+
+
+.link
+  color: $colorBase
+
+  &_underline
+    @extend .link
+    text-decoration: underline
+
+  &:hover
+    text-decoration: underline
+    cursor: pointer
+
+
+.button
+  text-transform: initial
+
+  &_small
+    @extend .button
+
+    .MuiButton-label
+      height: 20px
+      font-size: 12px
+      white-space: nowrap
+
+  &_medium.MuiButton-root
+    @extend .button
+    padding: 0 12px
+    height: 32px
+
+  &_large.MuiButton-root
+    @extend .button
+    height: 44px
+
+  &_wide.MuiButton-root
+    @extend .button
+    padding: 0 65px
+
+  &_narrow.MuiButton-root
+    min-width: unset
+    width: 100%
+    padding: 6px 0
+
+  &_error.MuiButton-root
+    color: #F26464
+    border-color: #F26464
+
+  &_error.MuiButton-outlined
+    &:hover
+      background-color: #fff8f8
+
+  &_primary.MuiButton-root
+    color: #FFF
+    background: $colorBase
+
+  &_secondary.MuiButton-root
+    color: #D6D7E3
+    background: #FBFBFF
+
+    &:hover
+      color: #FFF
+
+  &_edit.MuiButton-root
+    color: #FFF
+    background: #56CCF2
+
+    &:hover
+      background: #1abaef
+
+  &_warning.MuiButton-root
+    color: #FFF
+    background-color: $colorWarning
+
+    &:hover
+      background-color: #daa012
+
+
+.form
+  &__label
+    line-height: 38px
+    font-family: $fontMedium
+    font-size: 14px
+
+  &__control
+    margin-bottom: 15px
+    width: 100%
+
+  &__control input
+    padding: 0 16px
+    width: 100%
+    height: 42px
+    font-size: 14px
+    background-color: #EFF0F6
+    border: 2px solid transparent
+    border-radius: 4px
+    box-sizing: border-box
+
+    &::placeholder
+      color: #D6D7E3
+
+    &:focus
+      border: 2px solid $colorBase
+      outline: none
+      background-color: #FBFBFF
+
+    &:valid
+      background-color: #FBFBFF
+
+  &__select
+    height: 42px
+
+    .MuiSelect-root
+      padding: 0 15px
+      line-height: 42px
+
+  &__button_inner.MuiButtonBase-root
+    position: absolute
+    top: 6px
+    right: 6px
+    width: 34px
+    height: 34px
+    color: #B9B9B9
+
+  &__error
+    margin-top: 10px
+    font-size: 12px
+    color: $colorError
+
+    svg
+      font-size: 20px

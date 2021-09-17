@@ -1,0 +1,92 @@
+@import "variable"
+@import "index"
+
+.root
+  width: 100vw
+  height: 100vh
+
+
+.logo
+  background: $colorBaseDark
+
+  @media screen and (max-width: $medium)
+    height: 165px
+
+  &__image
+    margin: 50px
+    width: 200px
+    height: 61px
+    background-image: url("../asset/logo.svg")
+    image-rendering: pixelated
+    box-sizing: border-box
+    cursor: pointer
+
+
+.content
+  @media screen and (max-width: $medium)
+    padding: 0 20px
+
+  @media screen and (min-width: $medium)
+    margin: 100px 130px
+    max-width: 340px
+
+
+.title
+  font-size: 30px
+  font-family: $fontBold
+
+
+.hint
+  font-size: 14px
+
+  &_light
+    @extend .hint
+    color: $colorHintLight
+
+  &_large
+    font-size: 16px
+
+  &_small
+    line-height: 15px
+    font-size: 10px
+    color: #171717
+
+
+.social
+  display: flex
+  justify-content: space-between
+  margin-top: 20px
+
+  &__btn:nth-child(2)
+    margin: 0 20px
+
+  &__btn_fb
+    background-color: #3B5998 !important
+
+    &:hover
+      background-color: #4c70c4 !important
+
+  &__btn_microsoft
+    background-color: #00ADEF !important
+
+    &:hover
+      background-color: #24c3ff !important
+
+
+.or
+  display: flex
+  align-items: center
+  margin: 30px 0
+
+  hr
+    width: 100%
+    border: 1px solid #F5F5F5
+
+  span
+    padding: 0 34px
+    color: #BABABA
+
+
+.submit
+  margin: 30px 0 20px !important
+  width: 100%

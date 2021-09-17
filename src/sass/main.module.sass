@@ -1,0 +1,20 @@
+.header
+  padding: 20px
+  background: #FFF
+
+
+.navbarHeader
+  padding: 24px 5px 24px 20px
+  width: unset !important
+  height: 91px
+
+  &__logo
+    width: 140px
+    height: 43px
+    background-image: url("../asset/logoDrawer.svg")
+    transition: all 0.3s
+    cursor: pointer
+
+    &_inactive
+      @extend .navbarHeader__logo
+      transform: scale(0)

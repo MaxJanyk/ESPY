@@ -1,0 +1,53 @@
+{
+  "auth": {
+    "2step": {
+      "hint": "Fill in the registration data. It will take a couple of minutes.",
+      "hint2": "A text message with a verification code was just sent to *********40",
+      "title": "2-Step Verification"
+    },
+    "forgot": {
+      "doneHint1": "An email with further password reset instructions has been sent to",
+      "doneHint2": "if this address is present in our system.",
+      "hint": "Please enter your email or phone number to reset your password",
+      "resetPassword": "Reset Password",
+      "title": "Forgot password"
+    },
+    "or": "Or",
+    "register": {
+      "doneHint": "An email with a link to confirm your mail has been sent",
+      "hint": "Fill in the registration data. It will take a couple of minutes.",
+      "hint2": "Sign up with your social media account",
+      "licence": "Сontinuing you ipsum dolor sit amet, consectetur adipiscing elit. Magnis iaculis aliquam cras fringilla nisi. Ut eget quam faucibus",
+      "licence2": "Licence",
+      "submit": "Register Account",
+      "title": "Registration"
+    },
+    "welcome": {
+      "forgotYourPassword": "Forgot your password?",
+      "hint": "Sign in with your social media account",
+      "noAccountYet": "No account yet?",
+      "signIn": "Sign in",
+      "signUpNow": "Sign up now",
+      "title": "ברוך שובך"
+    }
+  },
+  "common": {
+    "done": "Done"
+  },
+  "input": {
+    "hint": {
+      "emailOrPhone": "Enter your email or phone number",
+      "password": "Enter your password"
+    },
+    "label": {
+      "emailOrPhone": "Email or Phone Number",
+      "password": "Password",
+      "verificationCode": "Verification code"
+    }
+  },
+  "validation": {
+    "max": "should have a maximum length of",
+    "min": "should have a minimum length of",
+    "required": "is not allowed to be empty"
+  }
+}
